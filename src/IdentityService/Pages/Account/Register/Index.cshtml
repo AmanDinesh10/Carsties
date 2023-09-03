@@ -1,5 +1,5 @@
 ﻿@page
-@model IdentityService.Pages.Account.Register.Index
+@model IdentityService.Pages.Register.Index
 
 <div>
     <partial name="_ValidationSummary" />
@@ -37,7 +37,7 @@
                             <a class="pb-2 d-block" asp-page="../Login/Index" asp-route-returnUrl="@Model.Input.ReturnUrl">
                                 Already registered? Login here
                             </a>
-
+                            
                             <button class="btn btn-primary" name="Input.Button" value="register">Register</button>
                             <button class="btn btn-secondary" name="Input.Button" value="cancel">Cancel</button>
                         </form>
